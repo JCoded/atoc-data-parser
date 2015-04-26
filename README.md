@@ -60,7 +60,7 @@ while (($line = fgets($stream)) !== false) {
 
 The parser will return an associative array with a key equal to the field name in the specification document, see the example below. The specification documents can be found on the ATOC site.
 
-``php
+```php
 [
     'TICKET_CODE' => '0AW',
     'RESTRICTION_CODE' => 'SV',
