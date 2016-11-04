@@ -126,7 +126,7 @@ class Locations extends AbstractMultiRecordFileParser
                 'DATA_MAP' => [
                     'UPDATE_MARKER' => 1,
                     'RECORD_TYPE' => 1,
-                    'GROUP_UIC_CODE' => 7,
+                    'UIC_CODE' => 7,
                     'END_DATE' => 8,
                     'START_DATE' => 8,
                     'DESCRIPTION' => 16

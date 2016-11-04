@@ -167,7 +167,7 @@ class LocationsTest extends AbstractTest
                 'expected' => [
                     'UPDATE_MARKER' => 'R',
                     'RECORD_TYPE' => 'S',
-                    'GROUP_UIC_CODE' => '8892007',
+                    'UIC_CODE' => '8892007',
                     'END_DATE' => '31122999',
                     'START_DATE' => '01011991',
                     'DESCRIPTION' => 'GENT ST.PIETERS ',
@@ -180,7 +180,7 @@ class LocationsTest extends AbstractTest
                 'expected' => [
                     'UPDATE_MARKER' => 'R',
                     'RECORD_TYPE' => 'S',
-                    'GROUP_UIC_CODE' => '9498004',
+                    'UIC_CODE' => '9498004',
                     'END_DATE' => '31122999',
                     'START_DATE' => '01011991',
                     'DESCRIPTION' => 'LISBOA T. DO PAC',
