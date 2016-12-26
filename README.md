@@ -1,7 +1,7 @@
-ATOC Feed Parser
+ATOC Data Parser
 ======
 
-This package allows you to parse the timetable and fares files contained within the ATOC data feed download available at http://data.atoc.org/data-download
+This package allows you to parse the timetable and fares files contained within the ATOC data download available at http://data.atoc.org/data-download
 
 It does not parse files that are identified as not maintained in the ATOC specification document.
 
@@ -10,7 +10,7 @@ It does not parse files that are identified as not maintained in the ATOC specif
 You can install this package through Composer. Add the following line to your composer.json `require` object:
 
 ```
-"jcoded/atoc-feed-parser": "dev-master"
+"jcoded/atoc-data-parser": "dev-master"
 ```
 
 ## Record identity
@@ -21,9 +21,9 @@ A field has been added to each record to help easily identify it, when using a R
 
 To create information that is easier to consume some field names vary from the specification to keep them uniform, the table below details the field name to expect from this parser and which field that relates to in the specification.
 
-| Parser field   | Timetable feed | Fares feed | Description                                  |
+| Parser field   | Timetable data | Fares data | Description                                  |
 |----------------|----------------|------------|----------------------------------------------|
-|RECORD_TYPE     |Record identity |RECORD_TYPE |Optionally included in the feed specification |
+|RECORD_TYPE     |Record identity |RECORD_TYPE |Optionally included in the data specification |
 |RECORD_IDENTITY |                |            |The identity given by this parser             |
 
 
