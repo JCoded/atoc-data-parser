@@ -14,8 +14,4 @@
             <directory>./tests/unit/</directory>
         </testsuite>
     </testsuites>
-    <logging>
-        <log type="coverage-html" target="build/coverage"/>
-        <log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false"/>
-  </logging>
 </phpunit>
