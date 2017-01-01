@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test\File\Fare;
+namespace JCoded\AtocDataParser\Test\File\Fare;
 
-use JCoded\ATOCFeedParser\Test\File\AbstractTest;
+use JCoded\AtocDataParser\Test\File\AbstractTest;
 
 /**
  * PrintFormatsTest Class
@@ -10,7 +10,7 @@ class PrintFormatsTest extends AbstractTest
 {
     protected function getObject()
     {
-        return new \JCoded\ATOCFeedParser\File\Fare\PrintFormats();
+        return new \JCoded\AtocDataParser\File\Fare\PrintFormats();
     }
     
     protected function getTestLines()

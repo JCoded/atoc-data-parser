@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Fare;
+namespace JCoded\AtocDataParser\File\Fare;
 
-use JCoded\ATOCFeedParser\File\AbstractFileParser;
+use JCoded\AtocDataParser\File\AbstractFileParser;
 
 /**
  * TicketTypes Class

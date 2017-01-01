@@ -1,5 +1,5 @@
 <?php
-namespace JCoded\ATOCFeedParser;
+namespace JCoded\AtocDataParser;
 
 /**
  * ParserFactoryInterface
@@ -11,7 +11,7 @@ interface ParserFactoryInterface
      * 
      * @param string $filename
      * 
-     * @return \JCoded\ATOCFeedParser\File\ParserInterface
+     * @return \JCoded\AtocDataParser\File\ParserInterface
      */
     public function getParser($filename);
 }

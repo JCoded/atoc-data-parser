@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Timetable;
+namespace JCoded\AtocDataParser\File\Timetable;
 
-use JCoded\ATOCFeedParser\File\AbstractFileParser;
+use JCoded\AtocDataParser\File\AbstractFileParser;
 
 /**
  * FixedLinks Class

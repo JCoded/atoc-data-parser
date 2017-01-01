@@ -11,7 +11,7 @@
     "license": "MIT",
     "type": "package",
     "support": {
-        "issues": "https://github.com/JCoded/atoc-feed-parser/issues"
+        "issues": "https://github.com/JCoded/atoc-data-parser/issues"
     },
     "authors": [{
         "name": "James Smith",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JCoded\\ATOCFeedParser\\": "src/"
+            "JCoded\\AtocDataParser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JCoded\\ATOCFeedParser\\Test\\": "tests/"
+            "JCoded\\AtocDataParser\\Test\\": "tests/"
         }
     },
     "config": {

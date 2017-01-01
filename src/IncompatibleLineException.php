@@ -1,5 +1,5 @@
 <?php
-namespace JCoded\ATOCFeedParser;
+namespace JCoded\AtocDataParser;
 
 use Exception;
 

@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Timetable;
+namespace JCoded\AtocDataParser\File\Timetable;
 
-use JCoded\ATOCFeedParser\File\AbstractMultiRecordFileParser;
+use JCoded\AtocDataParser\File\AbstractMultiRecordFileParser;
 
 /**
  * Cif Class

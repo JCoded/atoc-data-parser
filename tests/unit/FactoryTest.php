@@ -1,5 +1,5 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test;
+namespace JCoded\AtocDataParser\Test;
 
 /**
  * FactoryTest Class
@@ -8,147 +8,147 @@ class FactoryTest extends \PHPUnit_Framework_TestCase
 {
     private $expectations = [
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Flow',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Flow',
             'extension' => 'ffl',
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Flow',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Flow',
             'extension' => 'ffl'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\StationCluster',
+            'class' => 'JCoded\AtocDataParser\File\Fare\StationCluster',
             'extension' => 'fsc'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\NonDeliverableFares',
+            'class' => 'JCoded\AtocDataParser\File\Fare\NonDeliverableFares',
             'extension' => 'ndf'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\NonDeliverableFaresOverride',
+            'class' => 'JCoded\AtocDataParser\File\Fare\NonDeliverableFaresOverride',
             'extension' => 'nfo'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\NonStandardDiscounts',
+            'class' => 'JCoded\AtocDataParser\File\Fare\NonStandardDiscounts',
             'extension' => 'fns'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\TicketTypes',
+            'class' => 'JCoded\AtocDataParser\File\Fare\TicketTypes',
             'extension' => 'tty'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\TicketValidity',
+            'class' => 'JCoded\AtocDataParser\File\Fare\TicketValidity',
             'extension' => 'tvl'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\JourneySegments',
+            'class' => 'JCoded\AtocDataParser\File\Fare\JourneySegments',
             'extension' => 'tjs'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\TicketPublication',
+            'class' => 'JCoded\AtocDataParser\File\Fare\TicketPublication',
             'extension' => 'tpb'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\PrintFormats',
+            'class' => 'JCoded\AtocDataParser\File\Fare\PrintFormats',
             'extension' => 'tpn'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\ClassLegends',
+            'class' => 'JCoded\AtocDataParser\File\Fare\ClassLegends',
             'extension' => 'tcl'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\RailRovers',
+            'class' => 'JCoded\AtocDataParser\File\Fare\RailRovers',
             'extension' => 'trr'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Package',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Package',
             'extension' => 'tpk'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Suppliments',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Suppliments',
             'extension' => 'sup'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Railcards',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Railcards',
             'extension' => 'rlc'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\RailcardMinimumFare',
+            'class' => 'JCoded\AtocDataParser\File\Fare\RailcardMinimumFare',
             'extension' => 'rcm'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\StatusDiscounts',
+            'class' => 'JCoded\AtocDataParser\File\Fare\StatusDiscounts',
             'extension' => 'dis'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\RoundingRules',
+            'class' => 'JCoded\AtocDataParser\File\Fare\RoundingRules',
             'extension' => 'frr'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Restrictions',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Restrictions',
             'extension' => 'rst'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Locations',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Locations',
             'extension' => 'loc'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Routes',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Routes',
             'extension' => 'rte'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\Tocs',
+            'class' => 'JCoded\AtocDataParser\File\Fare\Tocs',
             'extension' => 'toc'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\TocSpecificTickets',
+            'class' => 'JCoded\AtocDataParser\File\Fare\TocSpecificTickets',
             'extension' => 'tsp'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Fare\AdvancePurchaseTickets',
+            'class' => 'JCoded\AtocDataParser\File\Fare\AdvancePurchaseTickets',
             'extension' => 'tap'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\Full',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\Full',
             'extension' => 'mca'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\Update',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\Update',
             'extension' => 'cfa'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\ManualTrains',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\ManualTrains',
             'extension' => 'ztr'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\FixedLinks',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\FixedLinks',
             'extension' => 'flf'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\AdditionalFixedLinks',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\AdditionalFixedLinks',
             'extension' => 'alf'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\MasterStationNames',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\MasterStationNames',
             'extension' => 'msn'
         ],
         [
-            'class' => 'JCoded\ATOCFeedParser\File\Timetable\TocSpecificInterchangeTime',
+            'class' => 'JCoded\AtocDataParser\File\Timetable\TocSpecificInterchangeTime',
             'extension' => 'tsi'
         ]
     ];
     
     public function testGetParserFakeFile()
     {
-        $obj = new \JCoded\ATOCFeedParser\Factory();
+        $obj = new \JCoded\AtocDataParser\Factory();
         
-        $this->setExpectedException('JCoded\ATOCFeedParser\InvalidFileException');
+        $this->setExpectedException('JCoded\AtocDataParser\InvalidFileException');
         
         $obj->getParser('fakefile.txt');
     }
     
     public function testGetParser()
     {
-        $obj = new \JCoded\ATOCFeedParser\Factory();
+        $obj = new \JCoded\AtocDataParser\Factory();
         
         foreach ($this->expectations as $expectation) {
             $expected = $expectation['class'];

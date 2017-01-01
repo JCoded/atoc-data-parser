@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test\File\Fare;
+namespace JCoded\AtocDataParser\Test\File\Fare;
 
-use JCoded\ATOCFeedParser\Test\File\AbstractTest;
+use JCoded\AtocDataParser\Test\File\AbstractTest;
 
 /**
  * StatusDiscountsTest Class
@@ -10,7 +10,7 @@ class StatusDiscountsTest extends AbstractTest
 {
     protected function getObject()
     {
-        return new \JCoded\ATOCFeedParser\File\Fare\StatusDiscounts();
+        return new \JCoded\AtocDataParser\File\Fare\StatusDiscounts();
     }
     
     protected function getTestLines()

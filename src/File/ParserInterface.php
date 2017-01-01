@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\File;
+namespace JCoded\AtocDataParser\File;
 
-use JCoded\ATOCFeedParser\IncompatibleLineException;
+use JCoded\AtocDataParser\IncompatibleLineException;
 
 /**
  * ParserInterface

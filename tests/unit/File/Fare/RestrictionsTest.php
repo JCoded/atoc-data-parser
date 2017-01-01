@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test\File\Fare;
+namespace JCoded\AtocDataParser\Test\File\Fare;
 
-use JCoded\ATOCFeedParser\Test\File\AbstractTest;
+use JCoded\AtocDataParser\Test\File\AbstractTest;
 
 /**
  * RestrictionsTest Class
@@ -10,7 +10,7 @@ class RestrictionsTest extends AbstractTest
 {
     protected function getObject()
     {
-        return new \JCoded\ATOCFeedParser\File\Fare\Restrictions(); //rst
+        return new \JCoded\AtocDataParser\File\Fare\Restrictions(); //rst
     }
     
     protected function getTestLines()

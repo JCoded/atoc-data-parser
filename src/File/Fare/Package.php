@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Fare;
+namespace JCoded\AtocDataParser\File\Fare;
 
-use JCoded\ATOCFeedParser\File\AbstractMultiRecordFileParser;
+use JCoded\AtocDataParser\File\AbstractMultiRecordFileParser;
 
 /**
  * Package Class

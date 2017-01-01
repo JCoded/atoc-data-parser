@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test\File;
+namespace JCoded\AtocDataParser\Test\File;
 
-use JCoded\ATOCFeedParser\IncompatibleLineException;
+use JCoded\AtocDataParser\IncompatibleLineException;
 
 /**
  * AbstractTest Class

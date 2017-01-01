@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser\Test\File\Timetable;
+namespace JCoded\AtocDataParser\Test\File\Timetable;
 
-use JCoded\ATOCFeedParser\Test\File\AbstractTest;
+use JCoded\AtocDataParser\Test\File\AbstractTest;
 
 /**
  * AdditionalFixedLinksTest Class
@@ -10,7 +10,7 @@ class AdditionalFixedLinksTest extends AbstractTest
 {
     protected function getObject()
     {
-        return new \JCoded\ATOCFeedParser\File\Timetable\AdditionalFixedLinks();
+        return new \JCoded\AtocDataParser\File\Timetable\AdditionalFixedLinks();
     }
     
     protected function getTestLines()

@@ -1,5 +1,5 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Timetable;
+namespace JCoded\AtocDataParser\File\Timetable;
 
 /**
  * Full Class

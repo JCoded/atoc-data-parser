@@ -1,8 +1,8 @@
 <?php
-namespace JCoded\ATOCFeedParser\File\Timetable;
+namespace JCoded\AtocDataParser\File\Timetable;
 
-use JCoded\ATOCFeedParser\File\ParserInterface;
-use JCoded\ATOCFeedParser\IncompatibleLineException;
+use JCoded\AtocDataParser\File\ParserInterface;
+use JCoded\AtocDataParser\IncompatibleLineException;
 
 /**
  * TocSpecificInterchangeTime Class

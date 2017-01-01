@@ -1,7 +1,7 @@
 <?php
-namespace JCoded\ATOCFeedParser;
+namespace JCoded\AtocDataParser;
 
-use JCoded\ATOCFeedParser\InvalidFileException;
+use JCoded\AtocDataParser\InvalidFileException;
 
 /**
  * Factory Class
@@ -52,9 +52,9 @@ class Factory implements ParserFactoryInterface
      * 
      * @param string $filename
      * 
-     * @throws \JCoded\ATOCFeedParser\InvalidFileException
+     * @throws \JCoded\AtocDataParser\InvalidFileException
      * 
-     * @return \JCoded\ATOCFeedParser\File\ParserInterface
+     * @return \JCoded\AtocDataParser\File\ParserInterface
      */
     public function getParser($filename)
     {

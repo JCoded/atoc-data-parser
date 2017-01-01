@@ -1,5 +1,5 @@
 <?php
-namespace JCoded\ATOCFeedParser\File;
+namespace JCoded\AtocDataParser\File;
 
 /**
  * AbstractMultiRecordFileParser Class

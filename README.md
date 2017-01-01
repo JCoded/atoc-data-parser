@@ -33,7 +33,7 @@ To get a parser object use the Factory based on the filename being parsed:
 
 ```php
 $filename = "RJFAF570.NDF";
-$factory = new \JCoded\ATOCFeedParser\Factory();
+$factory = new \JCoded\AtocDataParser\Factory();
 $parser = $factory->getParser($filename);
 ```
 
@@ -52,7 +52,7 @@ while (($line = fgets($stream)) !== false) {
 
         //Do something with the data
 
-    } catch (\JCoded\ATOCFeedParser\IncompatibleLineException $ex) {
+    } catch (\JCoded\AtocDataParser\IncompatibleLineException $ex) {
         //Handle exception
     }
 }
@@ -82,11 +82,11 @@ There are a some interfaces to use when injecting dependencies into your classes
 The interface for the Factory:
 
 ```php
-\JCoded\ATOCFeedParser\ParserFactoryInterface
+\JCoded\AtocDataParser\ParserFactoryInterface
 ```
 
 The interface for the returned parser:
 
 ```php
-\JCoded\ATOCFeedParser\File\ParserInterface
+\JCoded\AtocDataParser\File\ParserInterface
 ```

@@ -1,6 +1,6 @@
 <?php
 
-namespace JCoded\ATOCFeedParser\File\Fare;
+namespace JCoded\AtocDataParser\File\Fare;
 
 /**
  * NonDeliverableFaresOverride Class
