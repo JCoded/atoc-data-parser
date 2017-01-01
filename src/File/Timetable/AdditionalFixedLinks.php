@@ -22,17 +22,21 @@ class AdditionalFixedLinks implements ParserInterface
     {
         $pairs = explode(',', $line);
         
-        if ($pairs === false || is_array($pairs) === false || (count($pairs) === 1 && count($pairs[0] === 1)) ) {
-            throw new IncompatibleLineException();
+        if ($pairs === false || is_array($pairs) === false) {
+            throw new IncompatibleLineException($line);
         }
         
         $keyValues = [];
         
         foreach ($pairs as $pair) {
+            if (strlen($pair) <= 1) {
+                throw new IncompatibleLineException($line);
+            }
+        
             $parts = explode('=', ltrim($pair), 2);
             
-            if ($parts === false || (count($parts) === 1 && count($parts[0] === 1)) ) {
-                throw new IncompatibleLineException();
+            if ($parts === false || is_array($parts) === false || count($parts) !== 2) {
+                throw new IncompatibleLineException($line);
             }
         
             $keyValues[$parts[0]] = $parts[1];
