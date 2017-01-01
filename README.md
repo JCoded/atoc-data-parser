@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JCoded/atoc-data-parser.svg?branch=master)](https://travis-ci.org/JCoded/atoc-data-parser)
+
 ATOC Data Parser
 ======
 
