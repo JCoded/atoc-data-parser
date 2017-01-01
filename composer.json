@@ -1,12 +1,12 @@
 {
-    "name": "jcoded/atoc-feed-parser",
-    "description": "A parser for the ATOC data feed files.",
+    "name": "jcoded/atoc-data-parser",
+    "description": "A parser for the ATOC data files.",
     "keywords": [
         "ATOC", 
         "Association of Train Operating Companies", 
         "uk rail", 
         "uk train",
-        "train feed parser"
+        "train data parser"
     ],
     "license": "MIT",
     "type": "package",
@@ -15,7 +15,7 @@
     },
     "authors": [{
         "name": "James Smith",
-        "homepage": "http://www.linuxsystem.co.uk/",
+        "homepage": "https://github.com/JCoded",
         "role": "Developer"
     }],
     "require": {
