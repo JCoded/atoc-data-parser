@@ -30,8 +30,8 @@ class TocSpecificInterchangeTime implements ParserInterface
     {
         $values = explode(',', $line, 5);
         
-        if ($values === false || (count($values) === 1 && count($values[0] === 1)) ) {
-            throw new IncompatibleLineException;
+        if ($values === false || is_array($values) === false || (count($values) === 1 && count($values[0] === 1)) ) {
+            throw new IncompatibleLineException();
         }
         
         $keyValues = [];

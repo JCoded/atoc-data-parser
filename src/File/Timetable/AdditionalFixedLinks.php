@@ -22,7 +22,7 @@ class AdditionalFixedLinks implements ParserInterface
     {
         $pairs = explode(',', $line);
         
-        if ($pairs === false || (count($pairs) === 1 && count($pairs[0] === 1)) ) {
+        if ($pairs === false || is_array($pairs) === false || (count($pairs) === 1 && count($pairs[0] === 1)) ) {
             throw new IncompatibleLineException();
         }
         
